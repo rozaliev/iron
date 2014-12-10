@@ -19,10 +19,12 @@ name = "iron"
 path = "src/lib.rs"
 
 [dependencies]
-hyper = "*"
 typemap = "*"
-url = "*"
 plugin = "*"
 modifier = "*"
 error = "*"
+
+
+[dependencies.hyper]
+git = "https://github.com/hyperium/hyper.git"
 
